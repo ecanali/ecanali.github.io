@@ -65,9 +65,18 @@ a:hover {
     margin: 20px auto;
 }
 
-.about ul strong {
+.about ul {
     font-weight: 700;
     color: var(--my-green);
+    padding-inline-start: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about ul li {
+    color: white;
+    /* justify-self: center; */
 }
 
 #footer a {
@@ -99,6 +108,13 @@ main h1 {
     border-radius: 10px;
 }
 
+.card img {
+    max-width: 300px;
+    padding: 2px;
+    border-radius: 8px;
+    border: 1px solid var(--my-green);
+}
+
 .card-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -117,6 +133,7 @@ main h1 {
     background-color: rgb(54, 57, 63);
     filter: brightness(80%);
     border-radius: 10px;
+    text-decoration: none;
 }
 
 /* MODAL */
