@@ -7,7 +7,7 @@ for (let card of cards) {
   card.addEventListener('click', function() {
     const projectId = card.getAttribute('id')
     modalShadow.classList.add('active')
-    modalShadow.querySelector('iframe').src = `https://ecanali.github.io/projects/${projectId}`
+    modalShadow.querySelector('iframe').src = `https://ecanali.github.io/assets/${projectId}`
   })  
 }
 
