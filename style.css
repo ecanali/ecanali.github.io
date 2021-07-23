@@ -13,22 +13,26 @@ header {
     padding: 20px;
     background: #36393f;
 }
+
 body {
     background: #2f3136;
     color: white;
     font-weight: 700;
 }
+
 .nav {
     text-align: center;
     line-height: 28px;
     font-size: 18px;
 }
+
 .nav a {
     text-decoration: none;
     text-align: center;
     margin: 30px;
     color: white;
 }
+
 a:hover {
     color: var(--my-green);
 }
@@ -76,7 +80,6 @@ a:hover {
 
 .about ul li {
     color: white;
-    /* justify-self: center; */
 }
 
 #footer a {
@@ -110,6 +113,7 @@ main h1 {
 
 .card img {
     max-width: 300px;
+    min-height: 190px;
     padding: 2px;
     border-radius: 8px;
     border: 1px solid var(--my-green);
