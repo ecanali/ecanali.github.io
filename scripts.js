@@ -4,10 +4,13 @@ const modal = document.querySelector('.modal')
 
 // Project card click listener and open modal
 for (let card of cards) {
-  card.addEventListener('click', function() {
-    const projectId = card.getAttribute('id')
-    modalShadow.classList.add('active')
-    modalShadow.querySelector('iframe').src = `https://ecanali.github.io/assets/${projectId}`
+  card.addEventListener('click', function(event) {
+    // Prevent modal opening when clicking on projects link
+    if (!event.target.classList.contains('card-link')) {
+      const projectId = card.getAttribute('id')
+      modalShadow.classList.add('active')
+      modalShadow.querySelector('iframe').src = `https://ecanali.github.io/assets/${projectId}`
+    }    
   })  
 }
 

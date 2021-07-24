@@ -132,7 +132,7 @@ main h1 {
     cursor: pointer;
 }
 
-.card-price {
+.card-link {
     color: var(--my-green);
     background-color: rgb(54, 57, 63);
     filter: brightness(80%);
