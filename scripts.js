@@ -14,15 +14,6 @@ for (let card of cards) {
   })  
 }
 
-// Add or remove maximize to the modal
-document.querySelector('.maximize-modal').addEventListener('click', function() {
-  if (modal.classList.contains('maximized')) {
-    modal.classList.remove('maximized')
-  } else {
-    modal.classList.add('maximized')
-  }
-})
-
 // Close modal click listener
 document.querySelector('.close-modal').addEventListener('click', function() {
   modalShadow.classList.remove('active')
@@ -38,5 +29,14 @@ document.addEventListener('keydown', function(event) {
       modalShadow.querySelector('iframe').src = ""
       modal.classList.remove('maximized')
     }
+  }
+})
+
+// Add or remove maximize to the modal
+document.querySelector('.maximize-modal').addEventListener('click', function() {
+  if (modal.classList.contains('maximized')) {
+    modal.classList.remove('maximized')
+  } else {
+    modal.classList.add('maximized')
   }
 })
