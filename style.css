@@ -119,17 +119,8 @@ main h1 {
     border: 1px solid var(--my-green);
 }
 
-/* .card-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 40px 20px;
-    line-height: 26px;
-    font-weight: 700;
-} */
-
 .card-info {
     display: flex;
-    /* grid-template-columns: 1fr 1fr; */
     flex-direction: column;
     margin: 40px 20px;
     line-height: 26px;
