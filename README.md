@@ -38,14 +38,19 @@ Table of contents
 ## Layout <a name="-layout" style="text-decoration:none"></a>
 
 ### Home
-<img alt="Home" src="./assets/home.png" width="800px" />
+<a href="https://ecanali.github.io/index.html" target="_blank">
+    <img alt="Home" src="./assets/home.png" width="800px" />
+</a>
 
 ### Projects
-<img alt="Projects" src="./assets/projects.png" width="800px" />
+<a href="https://ecanali.github.io/projects.html" target="_blank">
+    <img alt="Projects" src="./assets/projects.png" width="800px" />
+</a>
 
 ### Opened modal
-<img alt="Opened modal" src="./assets/opened-modal.png" width="800px" />
-
+<a href="https://ecanali.github.io/projects.html" target="_blank">
+    <img alt="Opened modal" src="./assets/opened-modal.png" width="800px" />
+</a>
 ---
 
 ## How to download and execute the project <a name="-how-to-download-and-execute-the-project" style="text-decoration:none"></a>
