@@ -180,12 +180,6 @@ main h1 {
     cursor: pointer;
 }
 
-/* MODAL-ACTIVE */
-.modal-shadow.active {
-    opacity: 1;
-    visibility: visible;
-}
-
 /* MODAL-MAXIMIZED */
 .modal.maximized {
     background-color: white;
@@ -194,6 +188,12 @@ main h1 {
     top: 0;
     position: absolute;
     margin: 0;
+}
+
+/* MODAL-ACTIVE */
+.modal-shadow.active {
+    opacity: 1;
+    visibility: visible;
 }
 
 iframe {
