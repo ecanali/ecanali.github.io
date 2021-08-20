@@ -164,18 +164,18 @@ main h1 {
     position: relative;
 }
 
-.modal .close-modal {
-    color: black;
-    position: absolute;
-    right: 8px;
-    top: 8px;
-    cursor: pointer;
-}
-
 .modal .maximize-modal {
     color: black;
     position: absolute;
     right: 40px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.modal .close-modal {
+    color: black;
+    position: absolute;
+    right: 8px;
     top: 8px;
     cursor: pointer;
 }
