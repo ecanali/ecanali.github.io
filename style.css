@@ -119,6 +119,14 @@ main h1 {
     border: 1px solid var(--my-green);
 }
 
+.card-link {
+    color: var(--my-green);
+    background-color: rgb(54, 57, 63);
+    filter: brightness(80%);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
 .card-info {
     display: flex;
     flex-direction: column;
@@ -137,13 +145,6 @@ main h1 {
     cursor: pointer;
 }
 
-.card-link {
-    color: var(--my-green);
-    background-color: rgb(54, 57, 63);
-    filter: brightness(80%);
-    border-radius: 10px;
-    text-decoration: none;
-}
 
 /* MODAL */
 .modal-shadow {
